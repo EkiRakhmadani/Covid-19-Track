@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>COVID-19 TRACKER</h1>
+      <div class="input">
+        <input type="text" class="search-bar" id="search-bar" />
+        <button class="search-button" id="search-button">Get Data</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="card-container" id="card-container">
+        <!-- Active Cases -->
+        <div class="card">
+          <div class="card-info">
+            <div class="img">
+              <img src="lib/active.png" alt="" />
+            </div>
+            <h4>Active Cases</h4>
+            <p id="total-active"></p>
+          </div>
+        </div>
+
+        <!-- New Cases -->
+        <div class="card">
+          <div class="card-info">
+            <div class="img">
+              <img src="lib/new.png" alt="" />
+            </div>
+            <h4>New Cases</h4>
+            <p id="total-new"></p>
+          </div>
+        </div>
+
+        <!-- Total Cases -->
+        <div class="card">
+          <div class="card-info">
+            <div class="img">
+              <img src="lib/total.png" alt="" />
+            </div>
+            <h4>Total Cases</h4>
+            <p id="total-cases"></p>
+          </div>
+        </div>
+
+        <!-- Recovered Cases -->
+        <div class="card">
+          <div class="card-info">
+            <div class="img">
+              <img src="lib/recovered.png" alt="" />
+            </div>
+            <h4>Recovered Cases</h4>
+            <p id="total-recovered"></p>
+          </div>
+        </div>
+
+        <!-- Total Tested -->
+        <div class="card">
+          <div class="card-info">
+            <div class="img">
+              <img src="lib/tested.png" alt="" />
+            </div>
+            <h4>Total Tested</h4>
+            <p id="total-tested"></p>
+          </div>
+        </div>
+
+        <!-- Total Death -->
+        <div class="card">
+          <div class="card-info">
+            <div class="img">
+              <img src="lib/death.png" alt="" />
+            </div>
+            <h4>Death Cases</h4>
+            <p id="total-death"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
